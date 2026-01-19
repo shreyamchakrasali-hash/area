@@ -1,4 +1,4 @@
-from area import area_cicumference
-
-def test_area_cicumference():
-    assert area_cicumference(5) == "Area:28.274333882308138, Circumference:18.84955592153876"
+def test_area_circumference():
+    assert area_circumference(5) == (
+        "Area:78.53981633974483, Circumference:31.41592653589793"
+    )

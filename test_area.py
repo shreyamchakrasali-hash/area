@@ -1,6 +1,3 @@
 from area import area_cicumference
-import math
-
-def test_areacase():
-    assert area_cicumference(5) == f"Radius : 5\nArea : {math.pi*25}\nCircumference : {2*math.pi*5}"
-    
+def test_area_cicumference():
+    assert area_cicumference(3) == "Area: 28.274333882308138, Circumference: 18.84955592153876"

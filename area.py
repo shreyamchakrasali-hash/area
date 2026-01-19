@@ -8,4 +8,4 @@ def area_cicumference(radius):
     )
 
 if __name__ == "__main__":
-    print(area_cicumference(3))
+    print(area_cicumference(5))
